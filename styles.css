@@ -1,0 +1,40 @@
+body {
+    background-image: url('assets/super.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9; /
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px; /* Aumenta o tamanho da fonte */
+    color: #012900; /* Melhora a cor da fonte */
+}
+
+.product-item button {
+    margin-top: 18px; /* Adiciona um espaço entre o produto e o botão */
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 8px solid #ccc;
+    padding: 10px 0;
+}
+
+.cart-item button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 12px 10px;
+    cursor: pointer;
+}
